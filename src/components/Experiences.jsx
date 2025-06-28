@@ -33,8 +33,8 @@ const Experiences = () => {
             <div className="max-w-5xl mx-auto px-4 relative">
                 <h2 className="text-3xl font-bold text-center mb-16">Experience</h2>
 
-                {/* Timeline vertical line */}
-                <div className="absolute left-1/2 transform -translate-x-1/2 h-full border-l-[3px] border-gray-600"></div>
+                {/* Timeline vertical line - now white */}
+                <div className="absolute left-1/2 transform -translate-x-1/2 h-full border-l-[3px] border-white"></div>
 
                 {/* Experience items */}
                 <div className="flex flex-col gap-16 relative z-10">
@@ -48,7 +48,7 @@ const Experiences = () => {
                                 }`}
                             >
                                 {/* Dot in the center */}
-                                <div className="absolute left-1/2 transform -translate-x-1/2 w-5 h-5 rounded-full bg-gray-400 border-4 border-black z-20"></div>
+                                <div className="absolute left-1/2 transform -translate-x-1/2 w-5 h-5 rounded-full bg-white border-4 border-black z-20"></div>
 
                                 <div
                                     className={`bg-[#111] rounded-lg p-6 shadow-md w-full md:w-[45%] ${
