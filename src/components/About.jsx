@@ -28,7 +28,7 @@ const About = () =>{
     }
 
     return(
-        <div className="flex">
+        <div className="flex max-md:flex-col gap-4">
             <div className="kiri w-full h-auto">
                 <button 
                 className="px-7 py-1 text-white border rounded-[20px]"

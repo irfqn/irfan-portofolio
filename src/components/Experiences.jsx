@@ -1,36 +1,30 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 
 const experiences = [
     {
-        title: "Lorem ipsum dolor sit amet",
-        duration: "2023 - 2025",
-        description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        title: "Laboratory Assistant at SEA Laboratory",
+        duration: "Sep 2022 - Jul 2023",
+        description:"As the laboratory assistant of Software Engineering & Application laboratory, I am responsible on managing the practicum system and curicullum along with other assistant."
     },
     {
-        title: "Lorem ipsum dolor sit amet",
-        duration: "2023 - 2025",
+        title: "Cloud Computing Trainee at Bangkit Program",
+        duration: "Feb 2023 - Jul 2023",
         description:
-            "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "Completed Google-led Bangkit program with training in Google Cloud, web development, and networking. Built a mobile app capstone project and enhanced both technical and soft skills. Gained a strong foundation for continuous learning, collaboration, and innovation.",
     },
     {
-        title: "Lorem ipsum dolor sit amet",
-        duration: "2023 - 2025",
+        title: "IT Solution (Backend) at PT Tower Bersama Group Infrastructure",
+        duration: "Feb 2025 - Present",
         description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-    },
-    {
-        title: "Lorem ipsum dolor sit amet",
-        duration: "2023 - 2025",
-        description:
-            "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-    },
+            "Responsible for developing and maintaining backend systems using the .NET framework. Tasks include building APIs, optimizing performance, ensuring security and scalability, and troubleshooting to maintain system stability and seamless integration with business operations. ",
+    }
 ];
 
 const Experiences = () => {
     return (
         <section className="bg-black text-white py-20">
-            <div className="max-w-5xl mx-auto px-4 relative">
+            <div className="max-w-5xl mx-auto relative">
                 <h2 className="text-3xl font-bold text-center mb-16">Experience</h2>
 
                 {/* Timeline vertical line - now white */}
