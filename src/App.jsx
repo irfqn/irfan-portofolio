@@ -5,11 +5,11 @@ import Experiences from "./components/Experiences.jsx";
 
 const App = () =>{
   return (
-    <main className="bg-black min-h-screen px-32">
+    <main className="bg-black min-h-screen px-32 max-md:px-20">
       <Navbar/>
       <Hero/>
       <About/>
-        <Experiences/>
+      <Experiences/>
     </main> 
   )
 }
