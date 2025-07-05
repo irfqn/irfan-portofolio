@@ -5,7 +5,7 @@ import Experiences from "./components/Experiences.jsx";
 
 const App = () =>{
   return (
-    <main className="bg-black min-h-screen px-32 max-md:px-20">
+    <main className="bg-black min-h-screen px-32 max-md:px-20 max-sm:px-12">
       <Navbar/>
       <Hero/>
       <About/>

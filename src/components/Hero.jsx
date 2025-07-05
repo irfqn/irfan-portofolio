@@ -1,7 +1,7 @@
 const Hero = () =>{
     return(
-        <div className="bg-black h-96 py-20 font-semibold w-1/2 max-md:bg-black max-md:w-full">
-            <h1 className="text-8xl text-white max-md:text-7xl max-md:py-50"> Web 🕊️ Developer</h1>
+        <div className="bg-black h-96 font-semibold w-1/2 flex justify-center items-center max-md:bg-black max-md:w-full max-sm:h-48 max-sm:align-middle">
+            <h1 className="text-8xl text-white max-md:text-7xl max-sm:text-5xl"> Web 🕊️ Developer</h1>
             {/* <h1 className="text-8xl text-white">Scaling the Cloud.</h1> */}
         </div>
 
