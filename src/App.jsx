@@ -3,15 +3,18 @@ import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import Experiences from "./components/Experiences.jsx";
 
-const App = () =>{
+const App = () => {
   return (
-    <main className="bg-black min-h-screen px-32 max-md:px-20 max-sm:px-12">
-      <Navbar/>
-      <Hero/>
-      <About/>
-      <Experiences/>
-    </main> 
+    <main className="bg-black min-h-screen px-4">
+      <div className="max-w-[1440px] mx-auto px-32 max-md:px-20 max-sm:px-12">
+        <Navbar />
+        <Hero />
+        <About />
+        <Experiences />
+      </div>
+    </main>
   )
 }
+
 
 export default App
