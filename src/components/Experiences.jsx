@@ -23,7 +23,7 @@ const experiences = [
 
 const Experiences = () => {
     return (
-        <section className="bg-black text-white py-20 max-sm:py-10">
+        <section className="bg-black text-white py-15 max-sm:py-10">
             <div className="max-w-5xl mx-auto relative">
                 <h2 className="text-3xl font-bold text-center mb-16">Experience</h2>
 

@@ -2,6 +2,7 @@ import About from "./components/About"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import Experiences from "./components/Experiences.jsx";
+import Contact from "./components/Contact.jsx";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
         <Hero />
         <About />
         <Experiences />
+        <Contact />
       </div>
     </main>
   )
