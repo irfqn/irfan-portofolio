@@ -35,11 +35,14 @@ const Contact = () => {
     setStatus("sending");
 
     try {
-      const res = await fetch("https://irfan-portofolio-contact-api.onrender.com/api/send-email", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(form),
-      });
+      const res = await fetch(
+        "https://irfan-portofolio-contact-api.onrender.com/api/send-email",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(form),
+        }
+      );
 
       if (res.ok) {
         setStatus("success");
@@ -60,7 +63,7 @@ const Contact = () => {
       {/* CONTACT SECTION */}
       <section
         id="contact"
-        className="w-full flex justify-center py-24 mt-24 bg-black"
+        className="w-full flex justify-center py-24 mt-8 bg-black"
       >
         <div className="max-w-md w-full space-y-8">
           <h2 className="text-3xl font-bold tracking-tight text-center text-white">
